@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: ' Roboto';
+    background: rgb(7, 7, 7);
+}
+.container{
+    background-color: antiquewhite;
+}
+.logo img{
+    width: 25%;
+}
+.btn1 .btn1_a{
+    margin: 10px 0px;
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.btn1_a a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu ul{
+    list-style-type: none;
+    /* padding: 2px 0px; */
+    margin: 10px 0px; 
+}
+.menu ul li{
+    display: inline-block;
+  
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 0px 20px;
+}
+.menu ul li:hover{
+    background-color: red;
+    border-radius: 20px;
+}
+.video video{
+    width: 70%;
+}
+.strong1{
+    font-size: 22px;
+    /* color: white; */
+}
+.strong2{
+    font-size: 20px;
+    /* color: white; */
+}
+p{
+    font-size: 18px;
+    /* color: white; */
+}
+/* /// */
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: -30px;
+    background-color: black;
+    overflow-x: hidden;
+    transition: .5s;
+}
+.overlay-content{
+    position: absolute;
+    top:10%;
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.span{
+    cursor:pointer;
+    font-size: 25px;
+    color: white;
+    display:none;
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+    transition: .3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: red;
+}
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+}
+/* // */
+.slide img{
+    width: 100%;
+}
+.fo img{
+    width: 50%;
+    margin-top: 20px;
+}
+.strong3{
+    color: white;
+    padding: 10px 0px;
+}
+.fo a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    display: flex;
+}
+.foo p{
+    color: white;
+    padding: 10px 0px;
+}
+.header{
+   position: sticky;
+   top:0px;
+   z-index: 1;
+
+}
